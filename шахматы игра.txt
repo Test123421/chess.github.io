@@ -1,0 +1,107 @@
+<html>
+	<head>
+		<title>Шахи</title>
+			<style type="text/css">
+			body {
+				font-size: 80%;
+				font-family: Arial, Courier, monospace;
+				letter-spacing: 0.05em;	
+				background-color: white;}
+				.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+			#page {
+				max-width: 1350px;
+				min-width: 1200px;
+				margin: 10px auto 10px auto;
+				padding: 20px;
+				border: 4px double #000;
+				background-color: #ffffff;}
+			#logo {
+				width: 150px;
+				margin: 10px auto 25px auto;}
+
+			p.one {
+			font-size:120%;
+				text-align: left;
+				width: 1100px; 
+				margin: 20px auto 20px auto;
+ 
+				font-weight: normal;}
+			p {
+			font-size:120%;
+				text-align: left;
+				width: 1100px; 
+				margin: 20px auto 20px auto;
+ 
+				font-weight: normal;}
+				ul {
+				font-size:110%;}
+			li {
+				font-size:110%;
+				width: 1100px; 
+				margin: 20px auto 20px auto;}
+				h1{
+			font-size:400%;
+				border-style:none;
+				text-align: center;
+				margin:0x;
+				}
+				h2{
+
+				border-style:none;
+				text-align: center;
+				background-color:rgb(0,187,136);;
+				color:white;
+				margin:-3px;}
+			
+			a {
+				color: #000000;
+				text-transform: uppercase;
+				text-decoration: none;
+				padding: 6px 18px 5px 18px;}
+			a:hover, a.on {
+				color: #cc3333;
+				background-color: #ffffff;}
+				 .thumb img  {
+    border: none; /* Рамка вокруг фотографии */
+    padding: 15px; /* Расстояние от картинки до рамки */
+    margin-right: 3px; /* Отступ справа */
+
+   }
+   li.one {
+				display: inline;
+				margin: 0px 3px;}
+		h2.one{
+
+				border-style:none;
+				text-align: center;
+				background-color:white;;
+				color:white;
+				margin:-3px;}
+		
+		</style>
+		</head>
+	<body>
+	<h2 class="one"><ul id="navigation">
+				<li class="one"><a href="C:\Users\MSI\Desktop\сайт шахматы\Теорія.html">Теорія</a></li>
+				<li class="one"><a href="#">Практика</a></li>
+			</ul></h2>
+	<div class="container">
+  <img src="images/626262.jpg" alt="Snow" style="width:100%";>
+ <div class="centered"><h1> Випробуйте свої сили</h1>
+  </div>
+</div>
+<h2>Спробуй зіграти проти комп'ютера </h2>
+		<p class="two"><iframe src="https://chess-boom.online/chess2/chess.php" width="1024" height="1024" frameborder="no" scrolling="no"></iframe></p>
+		</body>
+		</html>
